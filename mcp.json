@@ -4,7 +4,9 @@
       "command": "python3",
       "args": [
         "${CLAUDE_PLUGIN_ROOT}/server/philosophy_council_mcp.py"
-      ]
+      ],
+      "type": "stdio"
     }
-  }
+  },
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json"
 }

@@ -2,5 +2,21 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "philosophy-council",
   "version": "0.1.0",
-  "description": "哲学十二镜议会：十二种哲学传统与苏格拉底式主持人的概念澄清、论证和质询。"
+  "description": "哲学十二镜议会：十二种哲学传统与苏格拉底式主持人的概念澄清、论证和质询。",
+  "license": "MIT",
+  "repository": "https://github.com/yety1113/philosophy-council",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "哲学十二镜议会",
+        "shortDescription": "澄清概念，交叉质询，保留分歧",
+        "developerName": "Personal",
+        "category": "Education",
+        "defaultPrompt": [
+          "用哲学十二镜议会讨论：人应该成为最好的自己吗？"
+        ]
+      },
+      "requires_local_executor": true
+    }
+  }
 }
