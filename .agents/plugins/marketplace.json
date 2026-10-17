@@ -1,0 +1,20 @@
+{
+  "name": "philosophy-council",
+  "interface": {
+    "displayName": "哲学十二镜议会"
+  },
+  "plugins": [
+    {
+      "name": "philosophy-council",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}

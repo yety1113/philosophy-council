@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "philosophy-council",
+  "version": "0.1.0",
+  "description": "哲学十二镜议会：十二种哲学传统与苏格拉底式主持人的概念澄清、论证和质询。"
+}
